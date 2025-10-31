@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Blog</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyBlog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Blog Cards -->
+<div class="container my-5">
+  <div class="row g-4">
+    <!-- Blog Card 1 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="assets/travel_blog.jpg" class="card-img-top" alt="A woman in the desert with a camel travelling">
+        <div class="card-body">
+          <h5 class="card-title">The Sudan Deserts</h5>
+          <p class="card-text">Discover the splendid beauty of the Sudan deserts, home to diverse tribes and wildlife.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 lead">
+        <img src="assets/tech_blog.jpg" class="card-img-top" alt="A man with a camera taking videos of himself">
+        <div class="card-body">
+          <h5 class="card-title">Content Creation Basics</h5>
+          <p class="card-text">Explore the essential tools, mindset, and strategies to thrive as a modern content creator.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="https://media.istockphoto.com/id/1274771319/video/fit-woman-athlete-maintaining-a-healthy-lifestyle-hiking-in-mountains-over-rocky-trails-and.avif?s=640x640&k=20&c=homUlerWeT0xx_A690i3Tj3j_HmDUlDZjJgZSR1cItQ=" class="card-img-top" alt="A person journaling at sunrise">
+        <div class="card-body">
+          <h5 class="card-title">Personal Growth Journey</h5>
+          <p class="card-text">Learn how journaling, mindfulness, and goal-setting can transform your life and mindset.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
